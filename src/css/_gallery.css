@@ -1,0 +1,13 @@
+.hero_galerry {
+    background-image: url(../images/hero__banner_gallery.png);
+}
+
+.gallery {
+    background: #000;
+}
+
+.gallery__info__container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 10rem 0;
+}

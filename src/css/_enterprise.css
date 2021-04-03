@@ -1,0 +1,56 @@
+.hero_enterprise {
+    background-image: url(../images/hero__banner_enterprise.png);
+    top: -1px;
+}
+
+.enterprise__copy {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 46.875rem;
+}
+
+.enterprise__text {
+    margin: 6.25rem 2rem;
+    line-height: 1.5rem;
+    width: 70%;
+}
+
+.enterprise__text p {
+    margin-top: 2rem;
+}
+
+.enterprise__image img {
+    position: relative;
+    left: -20rem;
+    top: 2.1rem;
+}
+
+.enterprise__logo {
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 1rem 0 4rem;
+}
+
+.enterprise__logo h2 {
+    padding: 1rem 0 2rem;
+}
+
+.enterprise__video {
+    width: 70%;
+    margin: 0 auto;
+    height: 53.125rem;
+    background-image: url(../images/enterprise__video.png);
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.enterprise__video i {
+    color: #fff;
+    position: relative;
+    top: 45%;
+    left: 45%;
+}

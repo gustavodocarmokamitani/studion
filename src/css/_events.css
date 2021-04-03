@@ -1,0 +1,53 @@
+        .hero_events {
+            background-image: url(../images/hero__banner_events.png);
+        }
+        
+        .events__container {
+            width: 1040px;
+            margin: 0 auto;
+        }
+        
+        .events__copy {
+            display: grid;
+            grid-template-columns: 1fr 2.2fr 1fr;
+            margin: 5rem 0;
+        }
+        
+        .events__copy img {
+            width: 11.50rem;
+            height: 10rem;
+        }
+        
+        .events__info {
+            color: var(--color-copy);
+        }
+        
+        .events__info h2 {
+            font-weight: 700;
+            color: var(--color-primary);
+            text-transform: uppercase;
+        }
+        
+        .events__info i {
+            margin-right: 1rem;
+            color: var(--color-primary);
+            font-size: 1.2rem;
+        }
+        
+        .events__info span {
+            font-size: .9rem;
+            font-weight: 700;
+            color: #000;
+            letter-spacing: 0.1rem;
+        }
+        
+        .btn__events {
+            font-size: .75rem;
+            background-color: var(--color-primary);
+            color: #fff;
+            height: 3.125rem;
+            width: 13.43rem;
+            position: relative;
+            left: 50px;
+            top: 85px;
+        }

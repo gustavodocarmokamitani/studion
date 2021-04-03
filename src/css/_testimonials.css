@@ -1,0 +1,40 @@
+.hero__background__testimonials {
+    top: -25rem;
+}
+
+.hero__testimony {
+    background-image: url(../images/hero__banner_testimonials.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section__testimony {
+    background-color: var(--color-primary);
+}
+
+.testimony {
+    position: relative;
+    margin: 5rem auto;
+    height: 38.125rem;
+}
+
+.testimony__next-arrow::before,
+.testimony__prev-arrow::before {
+    content: "";
+}
+
+.testimony__image {
+    display: flex;
+    justify-content: center;
+}
+
+.testimony__copy {
+    text-align: center;
+    margin-top: 1.5rem;
+    width: 37.5rem;
+    margin-left: 27rem;
+}
+
+
+/* 37.5 = 600 */
