@@ -1,6 +1,9 @@
 $(document).ready(function() {
+    $(".navbar__menu-btn").click(function() {
+        $(".navbar__links").toggleClass("active");
+    });
     const slickHome = {
-        autoplay: true,
+        autoplay: false,
         dots: false,
         prevArrow: '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
         nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button>;',
@@ -33,4 +36,5 @@ $(document).ready(function() {
             message => alert(message)
         );
     })
+
 });
