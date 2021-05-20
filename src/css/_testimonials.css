@@ -30,10 +30,14 @@
 }
 
 .testimony__copy {
+    display: flex;
+    justify-content: center;
+}
+
+.testimony__copy__container {
     text-align: center;
     margin-top: 1.5rem;
-    width: 37.5rem;
-    margin-left: 27rem;
+    width: 37.5rem;      
 }
 
 
